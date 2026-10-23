@@ -29,6 +29,14 @@ jobs:
           submodules: recursive
       - uses: actions/configure-pages@v5
         id: pages
+            - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install theme dependencies
+        working-directory: themes/hugo-minimal-black
+        run: |
+          npm install
+          npx tailwindcss -i ./assets/css/main.css -o ./static/css/main.css
       - name: Build
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - uses: actions/upload-pages-artifact@v3
