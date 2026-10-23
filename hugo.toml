@@ -1,0 +1,33 @@
+baseURL = "https://FrancoPrado1144.github.io/"
+locale = "es-AR"
+title = "Portfolio | Franco Prado"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "dark"
+
+  [params.profileMode]
+    enabled = true
+    title = "Hola, soy Franco Prado"
+    subtitle = "Estudiante de Ingeniería en Sistemas (UTN FRC) | Desarrollador"
+    imageUrl = "https://github.com/FrancoPrado1144.png"
+    imageWidth = 150
+    imageHeight = 150
+    buttons = [
+      { name = "Proyectos", url = "/projects/" },
+      { name = "GitHub", url = "https://github.com/FrancoPrado1144" }
+    ]
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/FrancoPrado1144"
+
+[menu]
+  [[menu.main]]
+    name = "Proyectos"
+    url = "/projects/"
+    weight = 1
+  [[menu.main]]
+    name = "Sobre mí"
+    url = "/about/"
+    weight = 2
