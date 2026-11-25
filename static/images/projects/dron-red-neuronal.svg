@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="Esquema de la red neuronal del agente DQN" font-family="Inter, 'Segoe UI', system-ui, sans-serif">
+<title>Esquema de la red neuronal del agente DQN</title>
+<defs>
+  <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#a855f7"/>
+  </marker>
+</defs>
+<rect x="0.5" y="0.5" width="959" height="519" rx="14" fill="#09090b" stroke="#27272a"/>
+<text x="32" y="44" font-size="20" fill="#f4f4f5" font-weight="600" text-anchor="start">Red Q de la corrida 29</text>
+<text x="32" y="68" font-size="13" fill="#a1a1aa" font-weight="400" text-anchor="start">Perceptrón multicapa: recibe el estado y devuelve un valor Q por cada acción posible</text>
+<g stroke="#a855f7" stroke-opacity="0.13" stroke-width="1"><line x1="400" y1="130.0" x2="540" y2="130.0"/><line x1="400" y1="130.0" x2="540" y2="167.5"/><line x1="400" y1="130.0" x2="540" y2="205.0"/><line x1="400" y1="130.0" x2="540" y2="242.5"/><line x1="400" y1="130.0" x2="540" y2="317.5"/><line x1="400" y1="130.0" x2="540" y2="355.0"/><line x1="400" y1="130.0" x2="540" y2="392.5"/><line x1="400" y1="130.0" x2="540" y2="430.0"/><line x1="400" y1="167.5" x2="540" y2="130.0"/><line x1="400" y1="167.5" x2="540" y2="167.5"/><line x1="400" y1="167.5" x2="540" y2="205.0"/><line x1="400" y1="167.5" x2="540" y2="242.5"/><line x1="400" y1="167.5" x2="540" y2="317.5"/><line x1="400" y1="167.5" x2="540" y2="355.0"/><line x1="400" y1="167.5" x2="540" y2="392.5"/><line x1="400" y1="167.5" x2="540" y2="430.0"/><line x1="400" y1="205.0" x2="540" y2="130.0"/><line x1="400" y1="205.0" x2="540" y2="167.5"/><line x1="400" y1="205.0" x2="540" y2="205.0"/><line x1="400" y1="205.0" x2="540" y2="242.5"/><line x1="400" y1="205.0" x2="540" y2="317.5"/><line x1="400" y1="205.0" x2="540" y2="355.0"/><line x1="400" y1="205.0" x2="540" y2="392.5"/><line x1="400" y1="205.0" x2="540" y2="430.0"/><line x1="400" y1="242.5" x2="540" y2="130.0"/><line x1="400" y1="242.5" x2="540" y2="167.5"/><line x1="400" y1="242.5" x2="540" y2="205.0"/><line x1="400" y1="242.5" x2="540" y2="242.5"/><line x1="400" y1="242.5" x2="540" y2="317.5"/><line x1="400" y1="242.5" x2="540" y2="355.0"/><line x1="400" y1="242.5" x2="540" y2="392.5"/><line x1="400" y1="242.5" x2="540" y2="430.0"/><line x1="400" y1="317.5" x2="540" y2="130.0"/><line x1="400" y1="317.5" x2="540" y2="167.5"/><line x1="400" y1="317.5" x2="540" y2="205.0"/><line x1="400" y1="317.5" x2="540" y2="242.5"/><line x1="400" y1="317.5" x2="540" y2="317.5"/><line x1="400" y1="317.5" x2="540" y2="355.0"/><line x1="400" y1="317.5" x2="540" y2="392.5"/><line x1="400" y1="317.5" x2="540" y2="430.0"/><line x1="400" y1="355.0" x2="540" y2="130.0"/><line x1="400" y1="355.0" x2="540" y2="167.5"/><line x1="400" y1="355.0" x2="540" y2="205.0"/><line x1="400" y1="355.0" x2="540" y2="242.5"/><line x1="400" y1="355.0" x2="540" y2="317.5"/><line x1="400" y1="355.0" x2="540" y2="355.0"/><line x1="400" y1="355.0" x2="540" y2="392.5"/><line x1="400" y1="355.0" x2="540" y2="430.0"/><line x1="400" y1="392.5" x2="540" y2="130.0"/><line x1="400" y1="392.5" x2="540" y2="167.5"/><line x1="400" y1="392.5" x2="540" y2="205.0"/><line x1="400" y1="392.5" x2="540" y2="242.5"/><line x1="400" y1="392.5" x2="540" y2="317.5"/><line x1="400" y1="392.5" x2="540" y2="355.0"/><line x1="400" y1="392.5" x2="540" y2="392.5"/><line x1="400" y1="392.5" x2="540" y2="430.0"/><line x1="400" y1="430.0" x2="540" y2="130.0"/><line x1="400" y1="430.0" x2="540" y2="167.5"/><line x1="400" y1="430.0" x2="540" y2="205.0"/><line x1="400" y1="430.0" x2="540" y2="242.5"/><line x1="400" y1="430.0" x2="540" y2="317.5"/><line x1="400" y1="430.0" x2="540" y2="355.0"/><line x1="400" y1="430.0" x2="540" y2="392.5"/><line x1="400" y1="430.0" x2="540" y2="430.0"/><line x1="540" y1="130.0" x2="680" y2="130.0"/><line x1="540" y1="130.0" x2="680" y2="167.5"/><line x1="540" y1="130.0" x2="680" y2="205.0"/><line x1="540" y1="130.0" x2="680" y2="242.5"/><line x1="540" y1="130.0" x2="680" y2="317.5"/><line x1="540" y1="130.0" x2="680" y2="355.0"/><line x1="540" y1="130.0" x2="680" y2="392.5"/><line x1="540" y1="130.0" x2="680" y2="430.0"/><line x1="540" y1="167.5" x2="680" y2="130.0"/><line x1="540" y1="167.5" x2="680" y2="167.5"/><line x1="540" y1="167.5" x2="680" y2="205.0"/><line x1="540" y1="167.5" x2="680" y2="242.5"/><line x1="540" y1="167.5" x2="680" y2="317.5"/><line x1="540" y1="167.5" x2="680" y2="355.0"/><line x1="540" y1="167.5" x2="680" y2="392.5"/><line x1="540" y1="167.5" x2="680" y2="430.0"/><line x1="540" y1="205.0" x2="680" y2="130.0"/><line x1="540" y1="205.0" x2="680" y2="167.5"/><line x1="540" y1="205.0" x2="680" y2="205.0"/><line x1="540" y1="205.0" x2="680" y2="242.5"/><line x1="540" y1="205.0" x2="680" y2="317.5"/><line x1="540" y1="205.0" x2="680" y2="355.0"/><line x1="540" y1="205.0" x2="680" y2="392.5"/><line x1="540" y1="205.0" x2="680" y2="430.0"/><line x1="540" y1="242.5" x2="680" y2="130.0"/><line x1="540" y1="242.5" x2="680" y2="167.5"/><line x1="540" y1="242.5" x2="680" y2="205.0"/><line x1="540" y1="242.5" x2="680" y2="242.5"/><line x1="540" y1="242.5" x2="680" y2="317.5"/><line x1="540" y1="242.5" x2="680" y2="355.0"/><line x1="540" y1="242.5" x2="680" y2="392.5"/><line x1="540" y1="242.5" x2="680" y2="430.0"/><line x1="540" y1="317.5" x2="680" y2="130.0"/><line x1="540" y1="317.5" x2="680" y2="167.5"/><line x1="540" y1="317.5" x2="680" y2="205.0"/><line x1="540" y1="317.5" x2="680" y2="242.5"/><line x1="540" y1="317.5" x2="680" y2="317.5"/><line x1="540" y1="317.5" x2="680" y2="355.0"/><line x1="540" y1="317.5" x2="680" y2="392.5"/><line x1="540" y1="317.5" x2="680" y2="430.0"/><line x1="540" y1="355.0" x2="680" y2="130.0"/><line x1="540" y1="355.0" x2="680" y2="167.5"/><line x1="540" y1="355.0" x2="680" y2="205.0"/><line x1="540" y1="355.0" x2="680" y2="242.5"/><line x1="540" y1="355.0" x2="680" y2="317.5"/><line x1="540" y1="355.0" x2="680" y2="355.0"/><line x1="540" y1="355.0" x2="680" y2="392.5"/><line x1="540" y1="355.0" x2="680" y2="430.0"/><line x1="540" y1="392.5" x2="680" y2="130.0"/><line x1="540" y1="392.5" x2="680" y2="167.5"/><line x1="540" y1="392.5" x2="680" y2="205.0"/><line x1="540" y1="392.5" x2="680" y2="242.5"/><line x1="540" y1="392.5" x2="680" y2="317.5"/><line x1="540" y1="392.5" x2="680" y2="355.0"/><line x1="540" y1="392.5" x2="680" y2="392.5"/><line x1="540" y1="392.5" x2="680" y2="430.0"/><line x1="540" y1="430.0" x2="680" y2="130.0"/><line x1="540" y1="430.0" x2="680" y2="167.5"/><line x1="540" y1="430.0" x2="680" y2="205.0"/><line x1="540" y1="430.0" x2="680" y2="242.5"/><line x1="540" y1="430.0" x2="680" y2="317.5"/><line x1="540" y1="430.0" x2="680" y2="355.0"/><line x1="540" y1="430.0" x2="680" y2="392.5"/><line x1="540" y1="430.0" x2="680" y2="430.0"/><line x1="680" y1="130.0" x2="820" y2="130"/><line x1="680" y1="130.0" x2="820" y2="180"/><line x1="680" y1="130.0" x2="820" y2="230"/><line x1="680" y1="130.0" x2="820" y2="280"/><line x1="680" y1="130.0" x2="820" y2="330"/><line x1="680" y1="130.0" x2="820" y2="380"/><line x1="680" y1="130.0" x2="820" y2="430"/><line x1="680" y1="167.5" x2="820" y2="130"/><line x1="680" y1="167.5" x2="820" y2="180"/><line x1="680" y1="167.5" x2="820" y2="230"/><line x1="680" y1="167.5" x2="820" y2="280"/><line x1="680" y1="167.5" x2="820" y2="330"/><line x1="680" y1="167.5" x2="820" y2="380"/><line x1="680" y1="167.5" x2="820" y2="430"/><line x1="680" y1="205.0" x2="820" y2="130"/><line x1="680" y1="205.0" x2="820" y2="180"/><line x1="680" y1="205.0" x2="820" y2="230"/><line x1="680" y1="205.0" x2="820" y2="280"/><line x1="680" y1="205.0" x2="820" y2="330"/><line x1="680" y1="205.0" x2="820" y2="380"/><line x1="680" y1="205.0" x2="820" y2="430"/><line x1="680" y1="242.5" x2="820" y2="130"/><line x1="680" y1="242.5" x2="820" y2="180"/><line x1="680" y1="242.5" x2="820" y2="230"/><line x1="680" y1="242.5" x2="820" y2="280"/><line x1="680" y1="242.5" x2="820" y2="330"/><line x1="680" y1="242.5" x2="820" y2="380"/><line x1="680" y1="242.5" x2="820" y2="430"/><line x1="680" y1="317.5" x2="820" y2="130"/><line x1="680" y1="317.5" x2="820" y2="180"/><line x1="680" y1="317.5" x2="820" y2="230"/><line x1="680" y1="317.5" x2="820" y2="280"/><line x1="680" y1="317.5" x2="820" y2="330"/><line x1="680" y1="317.5" x2="820" y2="380"/><line x1="680" y1="317.5" x2="820" y2="430"/><line x1="680" y1="355.0" x2="820" y2="130"/><line x1="680" y1="355.0" x2="820" y2="180"/><line x1="680" y1="355.0" x2="820" y2="230"/><line x1="680" y1="355.0" x2="820" y2="280"/><line x1="680" y1="355.0" x2="820" y2="330"/><line x1="680" y1="355.0" x2="820" y2="380"/><line x1="680" y1="355.0" x2="820" y2="430"/><line x1="680" y1="392.5" x2="820" y2="130"/><line x1="680" y1="392.5" x2="820" y2="180"/><line x1="680" y1="392.5" x2="820" y2="230"/><line x1="680" y1="392.5" x2="820" y2="280"/><line x1="680" y1="392.5" x2="820" y2="330"/><line x1="680" y1="392.5" x2="820" y2="380"/><line x1="680" y1="392.5" x2="820" y2="430"/><line x1="680" y1="430.0" x2="820" y2="130"/><line x1="680" y1="430.0" x2="820" y2="180"/><line x1="680" y1="430.0" x2="820" y2="230"/><line x1="680" y1="430.0" x2="820" y2="280"/><line x1="680" y1="430.0" x2="820" y2="330"/><line x1="680" y1="430.0" x2="820" y2="380"/><line x1="680" y1="430.0" x2="820" y2="430"/></g>
+<rect x="32" y="96" width="238" height="54" rx="9" fill="#141417" stroke="#27272a"/>
+<text x="46" y="119" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="start">Estado del dron</text>
+<text x="46" y="138" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">posición, giro y velocidades</text>
+<text x="256" y="129" font-size="17" fill="#c084fc" font-weight="700" text-anchor="end">12</text>
+<rect x="32" y="159" width="238" height="54" rx="9" fill="#141417" stroke="#27272a"/>
+<text x="46" y="182" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="start">Historial de acciones</text>
+<text x="46" y="201" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">últimos 15 comandos</text>
+<text x="256" y="192" font-size="17" fill="#c084fc" font-weight="700" text-anchor="end">60</text>
+<rect x="32" y="222" width="238" height="54" rx="9" fill="#141417" stroke="#27272a"/>
+<text x="46" y="245" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="start">Rayos horizontales</text>
+<text x="46" y="264" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">distancia a edificios, cada 45°</text>
+<text x="256" y="255" font-size="17" fill="#c084fc" font-weight="700" text-anchor="end">8</text>
+<rect x="32" y="285" width="238" height="54" rx="9" fill="#141417" stroke="#27272a"/>
+<text x="46" y="308" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="start">Vector al señuelo</text>
+<text x="46" y="327" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">dirección y distancia</text>
+<text x="256" y="318" font-size="17" fill="#c084fc" font-weight="700" text-anchor="end">3</text>
+<rect x="32" y="348" width="238" height="54" rx="9" fill="#141417" stroke="#27272a"/>
+<text x="46" y="371" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="start">Rayo hacia abajo</text>
+<text x="46" y="390" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">azoteas debajo del dron</text>
+<text x="256" y="381" font-size="17" fill="#c084fc" font-weight="700" text-anchor="end">1</text>
+<rect x="32" y="411" width="238" height="54" rx="9" fill="#141417" stroke="#27272a"/>
+<text x="46" y="434" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="start">Rayos inclinados</text>
+<text x="46" y="453" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">bordes de azoteas</text>
+<text x="256" y="444" font-size="17" fill="#c084fc" font-weight="700" text-anchor="end">4</text>
+<path d="M284,96 q10,0 10,10 V270.5 q0,10 10,10 q-10,0 -10,10 V455 q0,10 -10,10" fill="none" stroke="#a855f7" stroke-width="2"/>
+<text x="310" y="276.5" font-size="22" fill="#f4f4f5" font-weight="700" text-anchor="start">88</text>
+<text x="310" y="296.5" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="start">entradas</text>
+<text x="400" y="285.0" font-size="18" fill="#a1a1aa" font-weight="400" text-anchor="middle">⋮</text>
+<text x="400" y="470" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="middle">Entrada</text>
+<text x="400" y="490" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="middle">88 valores</text>
+<text x="540" y="285.0" font-size="18" fill="#a1a1aa" font-weight="400" text-anchor="middle">⋮</text>
+<text x="540" y="470" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="middle">Oculta 1</text>
+<text x="540" y="490" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="middle">128 neuronas · ReLU</text>
+<text x="680" y="285.0" font-size="18" fill="#a1a1aa" font-weight="400" text-anchor="middle">⋮</text>
+<text x="680" y="470" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="middle">Oculta 2</text>
+<text x="680" y="490" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="middle">128 neuronas · ReLU</text>
+<text x="820" y="470" font-size="14" fill="#f4f4f5" font-weight="600" text-anchor="middle">Salida</text>
+<text x="820" y="490" font-size="12" fill="#a1a1aa" font-weight="400" text-anchor="middle">7 valores Q</text>
+<circle cx="400" cy="130.0" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="167.5" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="205.0" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="242.5" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="317.5" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="355.0" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="392.5" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="400" cy="430.0" r="8" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="130.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="167.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="205.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="242.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="317.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="355.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="392.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="540" cy="430.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="130.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="167.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="205.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="242.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="317.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="355.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="392.5" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="680" cy="430.0" r="9" fill="#141417" stroke="#a855f7" stroke-width="1.6"/>
+<circle cx="820" cy="130" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="135" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">+x</text>
+<circle cx="820" cy="180" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="185" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">−x</text>
+<circle cx="820" cy="230" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="235" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">+y</text>
+<circle cx="820" cy="280" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="285" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">−y</text>
+<circle cx="820" cy="330" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="335" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">subir</text>
+<circle cx="820" cy="380" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="385" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">bajar</text>
+<circle cx="820" cy="430" r="9" fill="#a855f7" fill-opacity="0.85"/>
+<text x="838" y="435" font-size="13" fill="#f4f4f5" font-weight="500" text-anchor="start">quieto</text>
+</svg>
