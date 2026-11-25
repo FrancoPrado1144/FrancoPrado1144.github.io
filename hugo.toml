@@ -115,9 +115,9 @@ theme = "hugo-minimal-black"
     nowLabel = "En este momento"
     nowIntro = "Actualmente estoy:"
     now = [
-      "Cursando 4.º año de Ingeniería en Sistemas de Información en la UTN FRC",
+      "Cursando 4.º año de Ingeniería en Sistemas de Información y la nueva Licenciatura en Inteligencia Artificial en la UTN FRC",
       "Como becario de investigación en GISSIC y ayudante de cátedra de Probabilidad y Estadística",
-      "Entrenando un dron con Deep Q-Learning para seguir objetivos en movimiento"
+      "Aprendiendo sobre modelos de ML y agentes"
     ]
 
     [params.hero.primary]
