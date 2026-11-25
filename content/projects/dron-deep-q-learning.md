@@ -30,7 +30,7 @@ El agente es una red Q, un perceptrón multicapa en PyTorch. Recibe 88 valores q
 
 Usamos **Double DQN**, con memoria de repetición y red objetivo. El dron junta experiencia volando, la guarda en una memoria y aprende de lotes de experiencias tomadas al azar. Al principio explora casi siempre al azar y, a medida que aprende, aprovecha cada vez más lo que ya sabe.
 
-![Ciclo de entrenamiento: observar, elegir acción, simular, recompensa, guardar y aprender](/images/projects/dron-ciclo-entrenamiento.svg)
+![Ciclo de entrenamiento: el entorno PyBullet envía el estado a la red Q, el agente elige una acción, la recompensa se guarda en la memoria y el agente aprende de lotes al azar](/images/projects/dron-ciclo-entrenamiento.svg)
 
 El modelo final (la corrida 29) es el resultado de una serie de experimentos documentados en una bitácora. Fuimos ajustando la recompensa (por ejemplo, medir la distancia rodeando los edificios en lugar de en línea recta), los sensores (sumamos rayos inclinados para detectar bordes de azoteas) y los hiperparámetros de entrenamiento.
 
