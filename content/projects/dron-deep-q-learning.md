@@ -24,13 +24,14 @@ En cada paso de la simulación, el dron tiene que decidir hacia dónde moverse p
 
 El agente es una red Q, un perceptrón multicapa en PyTorch. Recibe 88 valores que describen la situación del dron (su estado, sus sensores de distancia y dónde está el objetivo) y devuelve un valor por cada una de las 7 acciones posibles. En cada paso, el dron ejecuta la acción con el valor más alto.
 
-![Esquema de la red neuronal: 88 entradas, dos capas ocultas de 128 neuronas y 7 salidas](/images/projects/dron-red-neuronal.svg)
+<img src="/images/projects/dron-red-neuronal.svg" alt="Esquema de la red neuronal: 88 entradas, dos capas ocultas de 128 neuronas y 7 salidas" style="width:100%;opacity:1;">
+
 
 ## Cómo aprende
 
 Usamos **Double DQN**, con memoria de repetición y red objetivo. El dron junta experiencia volando, la guarda en una memoria y aprende de lotes de experiencias tomadas al azar. Al principio explora casi siempre al azar y, a medida que aprende, aprovecha cada vez más lo que ya sabe.
 
-![Ciclo de entrenamiento: el entorno PyBullet envía el estado a la red Q, el agente elige una acción, la recompensa se guarda en la memoria y el agente aprende de lotes al azar](/images/projects/dron-ciclo-entrenamiento.svg)
+<img src="/images/projects/dron-ciclo-entrenamiento.svg" alt="Ciclo de entrenamiento del dron con Double DQN" style="width:100%;opacity:1;">
 
 El modelo final (la corrida 29) es el resultado de una serie de experimentos documentados en una bitácora. Fuimos ajustando la recompensa (por ejemplo, medir la distancia rodeando los edificios en lugar de en línea recta), los sensores (sumamos rayos inclinados para detectar bordes de azoteas) y los hiperparámetros de entrenamiento.
 
